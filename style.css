@@ -223,3 +223,11 @@ only screen and (min-width: 64em) {
     padding-top: 5px;
     color: #262626;
 }
+@media (max-width: 768px) {
+    .item .body{
+        font-size: 15px;
+    }
+    .item .title{
+        font-size: 22px;
+    }
+}
