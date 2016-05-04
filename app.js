@@ -7,11 +7,11 @@ function getAmpLink(link){
     var cleanUrl = link.replace(/.*?:\/\//g, "");
     return 'https://cdn.ampproject.org/c/s/amp.'+cleanUrl;
 }
+
 function updateDate(){
     $('.pubdate span').each(function() {
-        var now = moment();
-
-            $(this).text(moment($(this).text()).format('DD.MM.YYYY, HH:mm'));
+        var now = (new Date( $(this).text()).toISOString());
+        $(this).text( moment(now).format('DD.MM.YYYY HH:mm'));
 
     });
 }
@@ -27,8 +27,9 @@ $.getJSON(meduzaRss, function(data) {
                 '<div class="body">'+item.description+'</div>' +
                 '</div>';
             $('.content').append(item_block);
-            updateDate();
         });
+        updateDate();
+
     }
 
 }, "jsonp");
