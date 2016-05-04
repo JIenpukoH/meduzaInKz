@@ -5,7 +5,7 @@ moment.locale('ru');
 function getAmpLink(link){
     //remove protocol
     var cleanUrl = link.replace(/.*?:\/\//g, "");
-    return 'https://amp.'+cleanUrl;
+    return 'https://cdn.ampproject.org/c/s/amp.'+cleanUrl;
 }
 function updateDate(){
     $('.pubdate span').each(function() {
