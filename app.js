@@ -4,7 +4,7 @@ var meduzaRss =  'https://query.yahooapis.com/v1/public/yql?q='+encodeURI(yahooS
 function getAmpLink(link){
     //remove protocol
     var cleanUrl = link.replace(/.*?:\/\//g, "");
-    return 'https://cdn.ampproject.org/c/s/amp.'+cleanUrl;
+    return 'https://amp.'+cleanUrl;
 }
 $.getJSON(meduzaRss, function(data) {
     var items = data.query.results.item;
