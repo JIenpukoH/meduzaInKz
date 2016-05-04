@@ -1,0 +1,219 @@
+abbr,
+address,
+article,
+aside,
+audio,
+b,
+blockquote,
+body,
+canvas,
+caption,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+p,
+pre,
+q,
+samp,
+section,
+small,
+span,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+ul,
+var,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: 0 0
+}
+body {
+    line-height: 1
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block
+}
+nav ul {
+    list-style: none
+}
+blockquote,
+q {
+    quotes: none
+}
+blockquote:after,
+blockquote:before,
+q:after,
+q:before {
+    content: '';
+    content: none
+}
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: 0 0
+}
+ins {
+    background-color: #ff9;
+    color: #000;
+    text-decoration: none
+}
+mark {
+    background-color: #ff9;
+    color: #000;
+    font-style: italic;
+    font-weight: 700
+}
+del {
+    text-decoration: line-through
+}
+abbr[title],
+dfn[title] {
+    border-bottom: 1px dotted;
+    cursor: help
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0
+}
+input,
+select {
+    vertical-align: middle
+}
+* {
+    box-sizing: border-box
+}
+body {
+    -webkit-font-smoothing: antialiased;
+    background-color: #e6e6e6;
+    position: relative
+}
+li {
+    list-style: none
+}
+img {
+    max-width: 100%
+}
+a {
+    color: #b88b58;
+    text-decoration: none
+}
+.header {
+     background-color: #2E2E2E;
+     text-align: center;
+     height: 45px;
+     margin-bottom: 12px
+ }
+@media only screen and (min-width: 48em),
+only screen and (min-width: 64em) {
+    .header {
+        margin-bottom: 15px
+    }
+}
+.logo .logo-image {
+    width: 100px;
+    margin-top: 10px;
+    margin-bottom: 15px
+}
+.content{
+    max-width: 900px;
+    margin: 0 auto;
+    background: #fff;
+    border-top: 1px solid rgba(0,0,0,.2);
+    min-height: 500px;
+    position: relative;
+}
+.content .loading{
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    text-align: center;
+    margin-top: 150px;
+    font-size: 20px;
+    padding-top: 20px;
+}
+.item{
+    margin-bottom: 10px;
+    padding: 20px;
+    border-bottom: 1px solid #CCC;
+}
+.item .title{
+    font-family: Georgia,serif;
+    font-size: 25px;
+    color:#262626;
+
+}
+.item .title:hover{
+    color: #00077d;
+}
+.item .body{
+    padding-top: 5px;
+    color: #262626;
+}
