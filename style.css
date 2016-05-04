@@ -213,6 +213,12 @@ only screen and (min-width: 64em) {
 .item .title:hover{
     color: #00077d;
 }
+.item .pubdate{
+    display: block;
+    padding: 5px 0px 0px 0px;
+    font-size: 12px;
+    color: #565555;
+}
 .item .body{
     padding-top: 5px;
     color: #262626;
