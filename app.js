@@ -7,7 +7,10 @@ function getAmpLink(link){
     var cleanUrl = link.replace(/.*?:\/\//g, "");
     return 'https://cdn.ampproject.org/c/s/amp.'+cleanUrl;
 }
-
+$('.open_url .btn').click(function(e){
+    var link = $('#url').val();
+    window.open(getAmpLink(link),'_blank')
+});
 function updateDate(){
     $('.pubdate span').each(function() {
         var now = (new Date( $(this).text()).toISOString());

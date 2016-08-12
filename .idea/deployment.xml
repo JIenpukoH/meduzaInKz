@@ -9,6 +9,13 @@
           </mappings>
         </serverdata>
       </paths>
+      <paths name="cabinet">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
       <paths name="dev.everything.kz">
         <serverdata>
           <mappings>
@@ -37,14 +44,21 @@
           </mappings>
         </serverdata>
       </paths>
-      <paths name="parlam">
+      <paths name="subscribe">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>
-      <paths name="parlam_prod">
+      <paths name="vlast_mail">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="whois">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />
